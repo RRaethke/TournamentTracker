@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CreatePrizeForm));
-            this.createPrizeLabel = new System.Windows.Forms.Label();
+            this.headerLabel = new System.Windows.Forms.Label();
             this.placeNumberValue = new System.Windows.Forms.TextBox();
             this.placeNumberLabel = new System.Windows.Forms.Label();
             this.placeNameValue = new System.Windows.Forms.TextBox();
@@ -42,16 +42,16 @@
             this.createPrizeButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // createPrizeLabel
+            // headerLabel
             // 
-            this.createPrizeLabel.AutoSize = true;
-            this.createPrizeLabel.Font = new System.Drawing.Font("Segoe UI Light", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.createPrizeLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.createPrizeLabel.Location = new System.Drawing.Point(12, 9);
-            this.createPrizeLabel.Name = "createPrizeLabel";
-            this.createPrizeLabel.Size = new System.Drawing.Size(209, 50);
-            this.createPrizeLabel.TabIndex = 11;
-            this.createPrizeLabel.Text = "Create Prize";
+            this.headerLabel.AutoSize = true;
+            this.headerLabel.Font = new System.Drawing.Font("Segoe UI Light", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.headerLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
+            this.headerLabel.Location = new System.Drawing.Point(12, 9);
+            this.headerLabel.Name = "headerLabel";
+            this.headerLabel.Size = new System.Drawing.Size(209, 50);
+            this.headerLabel.TabIndex = 11;
+            this.headerLabel.Text = "Create Prize";
             // 
             // placeNumberValue
             // 
@@ -167,7 +167,7 @@
             this.Controls.Add(this.placeNameLabel);
             this.Controls.Add(this.placeNumberValue);
             this.Controls.Add(this.placeNumberLabel);
-            this.Controls.Add(this.createPrizeLabel);
+            this.Controls.Add(this.headerLabel);
             this.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
@@ -180,7 +180,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label createPrizeLabel;
+        private System.Windows.Forms.Label headerLabel;
         private System.Windows.Forms.TextBox placeNumberValue;
         private System.Windows.Forms.Label placeNumberLabel;
         private System.Windows.Forms.TextBox placeNameValue;
